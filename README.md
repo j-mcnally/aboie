@@ -1,10 +1,10 @@
 # Aboie
 
 
-Aboie is a Framework for Facebook Messanger bots built with Ruby.
+Aboie is a Framework for Facebook Messenger bots built with Ruby.
 
 * Parses incomming message json into the commonly required parts (Sender) and (Message)
-* Easily send text message responses via the Facebook Messanger API (Destination) & (Message)
+* Easily send text message responses via the Facebook Messenger API (Destination) & (Message)
 * Support for Rich Media messages. (TODO)
 
 
@@ -30,14 +30,14 @@ Create an initializer with the following
 
 ```
 	 Aboie.configure do |config|
-	   config.api_key = "messanger_api_key"
+	   config.api_key = "messenger_api_key"
 	 end
 ```
 
 
 ### Parsing webhooks
 
-Follow the instructions to setup an inbound webhook for the Messanger Api.
+Follow the instructions to setup an inbound webhook for the Messenger Api.
 Aboie can help you parse through the large object and make sense of it.
 
 ```
